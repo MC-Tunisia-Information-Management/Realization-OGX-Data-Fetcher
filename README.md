@@ -1,1 +1,2 @@
-# -Realization-OGX-Data-Fetcher
+# Realization-OGX-Data-Fetcher
+The "Realization OGX" function fetches data from AIESEC's GraphQL API concerning opportunities realized within a specified timeframe, filtered by program type and local committee. It retrieves details such as participant information (ID, full name, home MC, and LC), opportunity specifics (programme, title, duration, SDG alignment, and sub-product), and realization dates. Using Google Sheets and Apps Script, it clears existing content in a designated sheet and populates it with the fetched data, handling program-specific sub-products and logging operations for tracking. The function facilitates monitoring and reporting on realized opportunities within AIESEC's operational framework.
